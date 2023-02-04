@@ -4,11 +4,11 @@ import Footer from "../footer/footer"
 
 const Layout = () => {
     return (
-    <main role="main">
-        <Header />
-        <div style={{
-            minHeight: '84.5vh'
-        }}>
+    <main role="main" style={{
+        height: '100vh'
+    }}>
+        <Header/>
+        <div>
             <Outlet />
         </div>
         <Footer />
